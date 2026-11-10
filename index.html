@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aziz Alim · DevOps</title>
+<meta name="description" content="Aziz Alim — DevOps-focused student working with Kubernetes, CI/CD and Infrastructure as Code.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#fafaf9;--fg:#1c1917;--muted:#57534e;--line:#e7e5e4;--card:#fff;--accent:#2563eb}
+  @media (prefers-color-scheme:dark){:root{--bg:#0c0a09;--fg:#f5f5f4;--muted:#a8a29e;--line:#292524;--card:#1c1917;--accent:#60a5fa}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 Inter,system-ui,sans-serif}
+  main{max-width:760px;margin:0 auto;padding:64px 16px}
+  h1{font-size:2.4rem;margin:0;letter-spacing:-.02em}
+  .role{font-family:"JetBrains Mono",monospace;color:var(--accent);margin:.25rem 0 1rem}
+  p{color:var(--muted)}
+  .links{display:flex;gap:12px;flex-wrap:wrap;margin:1.5rem 0 3rem}
+  .links a{padding:8px 14px;border:1px solid var(--line);border-radius:8px;color:var(--fg);text-decoration:none;font-weight:600}
+  .links a:hover{border-color:var(--accent)}
+  h2{font-size:1.1rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:3rem 0 1rem}
+  .card{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin-bottom:12px;color:inherit;text-decoration:none}
+  .card:hover{border-color:var(--accent)}
+  .card h3{margin:0 0 4px;font-size:1.05rem}
+  .card p{margin:0 0 8px}
+  .tags{display:flex;flex-wrap:wrap;gap:6px}
+  .tags span{font:500 12px "JetBrains Mono",monospace;padding:2px 8px;border-radius:999px;background:var(--line);color:var(--fg)}
+  .stack{display:flex;flex-wrap:wrap;gap:8px}
+  .stack span{border:1px solid var(--line);border-radius:6px;padding:4px 10px;font-size:14px}
+  footer{margin-top:4rem;font-size:14px;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+  <h1>Aziz Alim</h1>
+  <div class="role">DevOps · Kubernetes · CI/CD · IaC</div>
+  <p>4th-year Management Information Systems & Technologies student at Trakya University. I build and automate infrastructure, from a single Linux server to a GitOps-managed Kubernetes cluster. My graduation thesis evaluates an AI decision layer for Kubernetes autoscaling in AIOps tasks. Open to DevOps / Cloud internships.</p>
+  <div class="links">
+    <a href="https://github.com/aziz-mevlana">GitHub</a>
+    <a href="https://www.linkedin.com/in/aziz-alim/">LinkedIn</a>
+  </div>
+
+  <h2>Featured projects</h2>
+  <a class="card" href="https://github.com/aziz-mevlana/kubernetes-03-production-ready-RKE2-HA-cluster">
+    <h3>Kubernetes GitOps Platform</h3>
+    <p>Jenkins builds and verifies images, ArgoCD deploys custom Helm charts to RKE2; Istio TCP gateway, cert-manager TLS, Prometheus/Grafana.</p>
+    <div class="tags"><span>kubernetes</span><span>argocd</span><span>helm</span><span>istio</span><span>jenkins</span></div>
+  </a>
+  <a class="card" href="https://github.com/aziz-mevlana/jenkins-cicd-deployment">
+    <h3>Zero-Downtime Swarm Deploy</h3>
+    <p>Jenkins pipeline with Docker Swarm start-first rolling updates and healthchecks: 100% availability, 0 failed requests under Siege load.</p>
+    <div class="tags"><span>jenkins</span><span>docker-swarm</span><span>ci-cd</span></div>
+  </a>
+  <a class="card" href="https://github.com/aziz-mevlana/terraform-digitalOcean">
+    <h3>Terraform + Ansible on DigitalOcean</h3>
+    <p>Provisioning a droplet with Terraform, then configuring and deploying with Ansible.</p>
+    <div class="tags"><span>terraform</span><span>ansible</span><span>iac</span></div>
+  </a>
+  <a class="card" href="https://github.com/aziz-mevlana/hello-world-docker">
+    <h3>Dockerized Node.js CI/CD</h3>
+    <p>GitHub Actions builds and deploys a containerized service to a remote server with secrets management.</p>
+    <div class="tags"><span>docker</span><span>github-actions</span></div>
+  </a>
+  <a class="card" href="https://github.com/aziz-mevlana/RcPlaneController">
+    <h3>RC Plane Controller</h3>
+    <p>Arduino Nano + NRF24L01 + MPU6050 wireless flight control with stabilization and Python joystick input.</p>
+    <div class="tags"><span>arduino</span><span>embedded</span><span>python</span></div>
+  </a>
+
+  <h2>Stack</h2>
+  <div class="stack">
+    <span>Kubernetes</span><span>Docker</span><span>Helm</span><span>Istio</span><span>ArgoCD</span><span>Jenkins</span><span>GitHub Actions</span><span>Terraform</span><span>Ansible</span><span>AWS</span><span>DigitalOcean</span><span>Linux</span><span>Nginx</span><span>Prometheus</span><span>Grafana</span><span>Python</span><span>Django</span><span>Bash</span>
+  </div>
+
+  <footer>© 2026 Aziz Alim</footer>
+</main>
+</body>
+</html>
